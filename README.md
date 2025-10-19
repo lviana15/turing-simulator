@@ -39,7 +39,7 @@ cargo --version
 ```
 Se ambos os comandos retornarem versões válidas, o Rust foi instalado com sucesso.
 
-🧪 Compilação e Execução
+## 🧪 Compilação e Execução
 1. Clonar ou baixar o projeto
 ```bash
 git clone https://github.com/lviana15/turing-simulator
@@ -59,7 +59,7 @@ Se o arquivo não for especificado, ele usará por padrão `example.in`
 cargo run
 ```
 
-📥 Formato do Arquivo de Entrada
+## 📥 Formato do Arquivo de Entrada
 O arquivo de entrada deve começar com um cabeçalho identificando o tipo de máquina, seguido pelas transições:
 
 ;I → Máquina Infinita
@@ -81,7 +81,7 @@ Exemplo:
 Obs: O programa sempre considera o estado `0` como estado inicial
 O programa criará automaticamente um arquivo de saída com a mesma base do nome, mas extensão .out.
 
-📤 Saída
+## 📤 Saída
 Ao executar o programa, ele exibirá algo como:
 ```txt
 ✅ Successfully converted to Sipser model.
@@ -90,7 +90,7 @@ Ao executar o programa, ele exibirá algo como:
 ```
 E o arquivo example.out conterá a máquina equivalente no outro modelo.
 
-⚠️ Erros Comuns
+## ⚠️ Erros Comuns
 "Input file name must end with '.in'"
 → Certifique-se de que o arquivo de entrada tem a extensão .in.
 
